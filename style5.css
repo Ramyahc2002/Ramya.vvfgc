@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    text-decoration: double;
+    color: purple;
+    text-shadow: 60px;
+    text-size-adjust: 50px;
+    word-spacing: 20%;
+    direction: rtl;
+    background-color: rgb(208, 215, 227);
+
+
+}
+*{background-color: wheat;
+background-repeat: no-repeat;
+justify-content: center;
+background-image: url("");
+display: flexbox;
+align-content: center;
+background-position: 50%;
+background-size:cover;}
+script{
+    text-align: centers;
+    
+
+}
+body{
+    text-align: center;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

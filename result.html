@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <br>
+    <h1>STUDENT RESULT</h1>
+    <br>
+<br>
+    <input type="text"name=""id="name" placeholder="enter your name">
+    <button type="submit" id="submit" onclick="resut()">CHEK</button>
+    <p id="result"></p>
+    <script>
+        function resut(){
+            const name=document.getElementById('name');
+            var marks=Math.random()*100;
+            var result=document.getElementById('result');
+
+            if(marks > 35){
+                result.innerHTML ="YOUR RESULT IS FAIL";
+            }
+            else if(marks > 50){
+                result.innerHTML ="YOUR RESULT IS  SECOND CLASS";
+            }
+            else if (marks > 75){
+                result.innerHTML ="YOUR RESULT IS FIRST CLASS";
+
+                }
+                else if (marks >  100){
+                result.innerHTML ="YOUR RESULT IS DISTINCTION";
+
+
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style5.css">
+    
+</body>
+</html>
